@@ -1,0 +1,200 @@
+dummy {
+    color: #f9faf8;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    background-color: gray;
+    background-color: #3882f6;
+}
+img {
+    background-color: gray;
+}
+
+/* FONT
+________________________ */
+* {
+    font-family: Roboto, sans-serif;
+}
+
+/* BODY
+________________________ */
+body {
+    margin: 0;
+}
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* NAV
+________________________ */
+header {
+    background-color: #1f2937;
+}
+nav {
+    margin: 0 auto;
+    padding: 16px 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+ul a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* HERO
+________________________ */
+.hero {
+    background-color: #1f2937;
+}
+.hero-container {
+    margin: 0 auto;
+    padding: 64px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.hero-container img {
+    height: auto;
+}
+.hero-text {
+    color: #e5e7eb;
+    flex-basis: 55%;
+}
+.hero-text p {
+    font-size: 18px;
+}
+h1 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* FIGURES
+________________________ */
+.figures {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.figure-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.figures h2 {
+    margin: 0;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+    flex-basis: 10%;
+}
+
+figure img {
+    background-color: #f9faf8;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+figcaption {
+    color: #1f2937;
+}
+
+/* QUOTE
+________________________ */
+blockquote {
+    margin: 0;
+    padding: 64px;
+    background-color: #e5e7eb;
+}
+.quote {
+    margin: 0 auto;
+    width: 70%;
+    color: #1f2937;
+}
+.quote p {
+    margin: 0 0 16px 0;
+    font-size: 36px;
+    font-style: italic;
+}
+cite {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* ACTIONS
+________________________ */
+.actions {
+    padding: 64px;
+}
+.signup-action {
+    margin: 0 auto;
+    padding: 32px 64px;
+    width: 70%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+.signup-action button {
+    border: 2px solid #f9faf8;
+}
+
+.text h2 {
+    margin: 0;
+    color: #f9faf8;
+}
+.text p {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+/* FOOTER
+________________________ */
+footer {
+    padding: 24px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+/* BUTTON
+________________________ */
+button {
+    padding: 8px 28px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
